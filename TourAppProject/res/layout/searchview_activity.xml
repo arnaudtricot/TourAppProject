@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <ViewStub android:id="@+id/vsHeader" 
+		    android:inflatedId="@+id/header" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout="@layout/header" />
+   
+   <TextView
+        android:id="@+id/textchoixtype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChoixTheme"
+         android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/listchoixtype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textchoixville"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChoixVille"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/listchoixville"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+
+
+    <EditText
+        android:id="@+id/precisionSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint = "@string/MotClefs"
+        android:gravity="center">
+
+        <requestFocus />
+    </EditText>
+    <Button
+            android:id="@+id/rechercher"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LaunchSearch" 
+            android:gravity="center"/>
+
+   
+
+</LinearLayout>

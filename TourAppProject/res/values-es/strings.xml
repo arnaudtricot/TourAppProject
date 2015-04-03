@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hey guys this is TourApp</string>
+    <string name="app_name">TourApp</string>
+	
+    <string name="MenuOne">Artículos</string>
+    <string name="MenuTwo">Mensajes</string>
+    <string name="MenuThree">TMT</string>
+    <string name="MenuFour">Ajustes</string>
+    <string name="MenuFive">Favoritos</string>
+    <string name="Fav">Favoritos</string>
+    <string name="Det">Detalles del artículo</string>
+    <string name="Msg">Mensajes</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Sent">Mensaje enviado!!</string>
+    <string name="NotSent">Error sending the message!!</string>
+    <string name="Data">Error al enviar el mensaje!!</string>
+    <string name="Types">Tipos</string>
+    <string name="FavBut">Favoritos</string>
+    <string name="SiteBut">SitioWeb</string>
+    <string name="CallBut">Llamar</string>
+    <string name="MapBut">Mapas</string>
+    <string name="TMTOne">Mañana 8am-12pm</string>
+    <string name="TMTTwo">Tarde 2pm-6pm</string>
+    <string name="TMTThree">Velada 8pm-2am</string>
+    <string name="Message">Mensaje</string>
+    <string name="SettingsOne">Selecciona la ciudad</string>
+    <string name="SettingsTwo">Elija el idioma</string>
+    <string name="SettingsThree">Feedback</string>
+    <string name="SettingsFour">Validar</string>
+    <string name="SettingsFive">Enviar</string>
+    <string name="HomeActivityTitle">TechnoTalkative | Dashboard pattern example</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="EclairActivityTitle">Eclair 2.0/2.1</string>
+    <string name="FroyoActivityTitle">Froyo 2.2</string>
+    <string name="GingerbreadActivityTitle">Gingerbread 2.3.x</string>
+    <string name="HoneycombActivityTitle">Honeycomb 3.x.x</string>
+    <string name="ICSActivityTitle">ICS 4.0.x</string>
+    <string name="JellyBeanActivityTitle">JellyBean (May be 4.1)</string>
+	<string name="rechercher">Buscar</string>
+    <string name="active">Activé</string>
+    <string name="desactive">Desactivé</string>
+    <string name="coordonnees">Coordonnées(adresse)</string>
+    <string name="equipements">Equipements et services</string>
+    <string name="informations">Informations pratiques</string>
+</resources>

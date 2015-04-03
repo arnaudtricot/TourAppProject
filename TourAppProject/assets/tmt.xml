@@ -1,0 +1,129 @@
+<models.TakeMeTour>
+  <id>18</id>
+  <morningItem>
+    <id>12</id>
+    <name>Pyramids</name>
+    <description>A Play! application follows the MVC architectural pattern as applied to the  architecture of the Web.
+</description>
+    <prix>120</prix>
+    <imageOne/>
+    <imageTwo/>
+    <imageThree/>
+    <city>
+      <id>3</id>
+      <name>Cairo</name>
+      <description>The model has a central position in a Play! application. It is the domain-specific  representation of the information on which the application operates.
+</description>
+      <longitude>30.05</longitude>
+      <latitude>30.05</latitude>
+      <touristicItems class="org.hibernate.collection.PersistentBag">
+        <initialized>false</initialized>
+        <owner class="models.City" reference="../.."/>
+        <cachedSize>-1</cachedSize>
+        <role>models.City.touristicItems</role>
+        <key class="long">3</key>
+        <dirty>false</dirty>
+      </touristicItems>
+    </city>
+    <coords>
+      <id>15</id>
+      <email>alo@alo.com</email>
+      <address>30 rue el soudan el dokkie giza</address>
+      <website>http://www.google.com</website>
+      <longitude>30.5</longitude>
+      <latitude>30.5</latitude>
+      <wiki>www.coucou.fr</wiki>
+      <toursicItem reference="../.."/>
+    </coords>
+    <infos>Il y a exactement trois pyramids</infos>
+    <equipements>sable, poussiere</equipements>
+    <avant>true</avant>
+    <type>
+      <id>5</id>
+      <name>Restaurent</name>
+      <image/>
+      <touristicItems class="org.hibernate.collection.PersistentBag">
+        <initialized>false</initialized>
+        <owner class="models.Type" reference="../.."/>
+        <cachedSize>-1</cachedSize>
+        <role>models.Type.touristicItems</role>
+        <key class="long">5</key>
+        <dirty>false</dirty>
+      </touristicItems>
+    </type>
+  </morningItem>
+  <afternoonItem>
+    <id>13</id>
+    <name>Pyramidssss</name>
+    <description>A Play! application follows the MVC architectural pattern as applied to the  architecture of the Web.
+</description>
+    <prix>120</prix>
+    <imageOne/>
+    <imageTwo/>
+    <imageThree/>
+    <city reference="../../morningItem/city"/>
+    <coords>
+      <id>16</id>
+      <email>alo@alo.com</email>
+      <address>30 rue el soudan el dokkie giza</address>
+      <website>http://www.google.com</website>
+      <longitude>30.5</longitude>
+      <latitude>30.5</latitude>
+      <wiki>www.google.fr</wiki>
+      <toursicItem reference="../.."/>
+    </coords>
+    <infos>Il y a exactement trois pyramids</infos>
+    <equipements>sable, poussiere</equipements>
+    <avant>false</avant>
+    <type>
+      <id>6</id>
+      <name>Sites touristiques</name>
+      <image/>
+      <touristicItems class="org.hibernate.collection.PersistentBag">
+        <initialized>false</initialized>
+        <owner class="models.Type" reference="../.."/>
+        <cachedSize>-1</cachedSize>
+        <role>models.Type.touristicItems</role>
+        <key class="long">6</key>
+        <dirty>false</dirty>
+      </touristicItems>
+    </type>
+  </afternoonItem>
+  <nightItem>
+    <id>14</id>
+    <name>AAALOOOOO</name>
+    <description>A Play! application follows the MVC architectural pattern as applied to the  architecture of the Web.
+</description>
+    <prix>120</prix>
+    <imageOne/>
+    <imageTwo/>
+    <imageThree/>
+    <city reference="../../morningItem/city"/>
+    <coords>
+      <id>17</id>
+      <email>alo@alo.com</email>
+      <address>30 rue el soudan el dokkie giza</address>
+      <website>http://www.google.com</website>
+      <longitude>30.5</longitude>
+      <latitude>30.5</latitude>
+      <wiki>www.yahoo.fr</wiki>
+      <toursicItem reference="../.."/>
+    </coords>
+    <infos>Il y a exactement trois pyramids</infos>
+    <equipements>sable, poussiere</equipements>
+    <avant>false</avant>
+    <type>
+      <id>7</id>
+      <name>Activites touristiques</name>
+      <image/>
+      <touristicItems class="org.hibernate.collection.PersistentBag">
+        <initialized>false</initialized>
+        <owner class="models.Type" reference="../.."/>
+        <cachedSize>-1</cachedSize>
+        <role>models.Type.touristicItems</role>
+        <key class="long">7</key>
+        <dirty>false</dirty>
+      </touristicItems>
+    </type>
+  </nightItem>
+</models.TakeMeTour>

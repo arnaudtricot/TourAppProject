@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hey guys this is TourApp</string>
+    <string name="app_name">TourApp</string>
+	
+    <string name="MenuOne"></string>
+    <string name="MenuTwo"></string>
+    <string name="MenuThree"></string>
+    <string name="MenuFour"></string>
+    <string name="MenuFive"></string>
+    <string name="Fav">Favoris</string>
+    <string name="Det">Description</string>
+    <string name="Msg">Message</string>
+    <string name="Settings">Paramètre</string>
+    <string name="Sent">Le message est envoyé!!</string>
+    <string name="NotSent">Erreur ! Verifiez votre connexion internet !</string>
+    <string name="Data">Les champs sont obligatoires</string>
+    <string name="Types">Types</string>
+    <string name="FavBut">Ajouter aux favoris</string>
+    <string name="SiteBut">SiteWeb</string>
+    <string name="CallBut">Appeler</string>
+    <string name="MapBut">Carte</string>
+    <string name="TMTOne">Matin 8h-12h</string>
+    <string name="TMTTwo">Après midi 14h-18h</string>
+    <string name="TMTThree">Soirée 20h-2h</string>
+    <string name="SettingsOne">Choisir la ville</string>
+    <string name="SettingsTwo">Choisir la langue</string>
+    <string name="SettingsThree">Donnez votre avis</string>
+    <string name="SettingsFour">Valider</string>
+    <string name="SettingsFive">Envoyer</string>
+    <string name="Message">Message</string>
+    <string name="HomeActivityTitle">TechnoTalkative | Dashboard pattern example</string>
+    <string name="FeedbackActivityTitle">Vos avis</string>
+    <string name="EclairActivityTitle">Eclair 2.0/2.1</string>
+    <string name="FroyoActivityTitle">Froyo 2.2</string>
+    <string name="GingerbreadActivityTitle">Gingerbread 2.3.x</string>
+    <string name="HoneycombActivityTitle">Honeycomb 3.x.x</string>
+    <string name="ICSActivityTitle">ICS 4.0.x</string>
+    <string name="JellyBeanActivityTitle">JellyBean (May be 4.1)</string>
+    <string name="rechercher">Search</string>
+    <string name="active">Activé</string>
+    <string name="desactive">Desactivé</string>
+    <string name="coordonnees">Coordonnées(adresse)</string>
+    <string name="equipements">Equipements et services</string>
+    <string name="informations">Informations pratiques</string>
+</resources>

@@ -1,0 +1,93 @@
+﻿<list>
+  <models.Type>
+    <id>5</id>
+    <name>Test fichier xml</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">5</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>6</id>
+    <name>Sites touristiques</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">6</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>7</id>
+    <name>Activites touristiques</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">7</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>8</id>
+    <name>Agenda et sorties et actualites</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">8</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>9</id>
+    <name>Hebergement / locations</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">9</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>10</id>
+    <name>Les incontournables</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">10</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+  <models.Type>
+    <id>11</id>
+    <name>Informations pratiques et n° utiles</name>
+    <image/>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.Type" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.Type.touristicItems</role>
+      <key class="long">11</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.Type>
+</list>

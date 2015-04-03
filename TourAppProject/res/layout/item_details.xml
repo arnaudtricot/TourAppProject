@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/itemDetail"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/text_size_medium" >
+
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="wrap_content"
+            android:layout_height="102dp"
+            android:layout_weight="0.52"
+            android:src="@drawable/bb2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.74"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/text_size_medium" >
+
+            <TextView
+                android:id="@+id/itemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <!--
+                     <TextView
+                    android:id="@+id/itemDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            -->
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/itemDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrlView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/text_size_small"
+            android:paddingRight="@dimen/text_size_small"
+            android:paddingTop="@dimen/text_size_medium" >
+
+            <Button
+                android:id="@+id/buttonSite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/site"
+                android:text="@string/SiteBut" />
+
+            <Button
+                android:id="@+id/buttonAppler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_design"
+                android:drawableLeft="@drawable/call"
+                android:text="@string/CallBut" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/button_design"
+                    android:drawableLeft="@drawable/map"
+                    android:text="@string/MapBut" />
+
+                <Button
+                    android:id="@+id/buttonFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/button_design"
+                    android:drawableLeft="@drawable/fav"
+                    android:text="@string/FavBut" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+            	android:paddingTop="@dimen/text_size_medium">
+
+                  <!-- Spinner Dropdown -->
+                   <!--android:prompt="@string/spinner_title"-->
+                <Spinner
+                    android:id="@+id/spin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"                    
+        			android:layout_marginTop="20dip"
+        			android:layout_marginLeft="8dip"
+        			android:layout_marginRight="8dip" 
+                    android:background="@drawable/button_design"
+                    >
+                </Spinner>
+             
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="@dimen/text_size_medium">
+                    
+               
+                     <Button
+                        android:id="@+id/activation"
+                        android:layout_width="105dp"
+                        android:layout_height="25dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/button_design"
+                        android:text="@string/active" />
+                    
+                    </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingTop="@dimen/text_size_medium">
+                    
+                    <TextView
+                		android:id="@+id/information"
+                		android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:layout_centerVertical="true"
+                		android:layout_centerHorizontal="true"
+                		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    
+   
+
+</LinearLayout>

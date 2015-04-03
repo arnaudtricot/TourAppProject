@@ -1,0 +1,34 @@
+<list>
+  <models.City>
+    <id>3</id>
+    <name>Bouguenais</name>
+    <description>The model has a central position in a Play! application. It is the domain-specific  representation of the information on which the application operates.
+</description>
+    <longitude>30.05</longitude>
+    <latitude>30.05</latitude>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.City" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.City.touristicItems</role>
+      <key class="long">3</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.City>
+  <models.City>
+    <id>4</id>
+    <name>Alexandria</name>
+    <description>The model has a central position in a Play! application. It is the domain-specific  representation of the information on which the application operates.                   
+</description>
+    <longitude>30.05</longitude>
+    <latitude>30.05</latitude>
+    <touristicItems class="org.hibernate.collection.PersistentBag">
+      <initialized>false</initialized>
+      <owner class="models.City" reference="../.."/>
+      <cachedSize>-1</cachedSize>
+      <role>models.City.touristicItems</role>
+      <key class="long">4</key>
+      <dirty>false</dirty>
+    </touristicItems>
+  </models.City>
+</list>
